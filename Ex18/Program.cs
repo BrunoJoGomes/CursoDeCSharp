@@ -44,7 +44,7 @@ namespace Ex18
             area = largura * comprimento;
             valorTotal = area * valorm2;
 
-            //Resultados
+            //Resultados bla
 
             Console.Clear();
             Console.Write("========Resultados=======");
