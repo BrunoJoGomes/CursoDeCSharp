@@ -7,7 +7,7 @@ namespace Ex18
     {
         static void Main(string[] args)
         {
-            /* Console.WriteLine("***************Bem vindo ao programa que calcula a área de um terreno***************");
+             Console.WriteLine("***************Bem vindo ao programa que calcula a área de um terreno***************");
              Console.WriteLine();
              Console.Write("Digite a largura do terreno: ");
              float baseDoterreno = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -26,7 +26,8 @@ namespace Ex18
              Console.WriteLine("A área do terreno é: " + area.ToString("F2", CultureInfo.InvariantCulture) + "M²");
              Console.WriteLine("O valor do M² do terreno é: R$" + (area * valorMetroQuadrado).ToString("F2", CultureInfo.InvariantCulture));
 
-             */
+           
+            /*
             //Jeito do prof:
             //Variaveis 
             double largura, comprimento, valorm2, area, valorTotal;
@@ -44,7 +45,7 @@ namespace Ex18
             area = largura * comprimento;
             valorTotal = area * valorm2;
 
-            //Resultados bla
+            //Resultados
 
             Console.Clear();
             Console.Write("========Resultados=======");
@@ -52,6 +53,7 @@ namespace Ex18
             Console.Write("Área do terreno é: " + area.ToString("F2", CultureInfo.InvariantCulture) + " M²");
             Console.WriteLine();
             Console.Write("O valor total do terreno é: R$" + valorTotal.ToString("F2", CultureInfo.InvariantCulture));
+            */
             
 
 
