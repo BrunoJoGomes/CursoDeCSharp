@@ -28,9 +28,11 @@ namespace Ex17
             Console.WriteLine("9 x " + num + " = " + (9 * num));
             Console.WriteLine("10 x " + num + " = " + (10 * num));
 
-            for (int cont = 0; cont <= 10; cont++)
+            /*
+             for (int cont = 0; cont <= 10; cont++)
             {
-                Console.WriteLine($"{cont} X {num} = {num * cont}"); 
+                Console.WriteLine($"{cont} X {num} = {num * cont}");
+            */
 
             } 
 
