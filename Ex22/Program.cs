@@ -6,7 +6,7 @@ namespace Ex22
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("==================Programa para calcular média==================");
+            Console.WriteLine("================== Programa para calcular média ==================");
             Console.WriteLine();
             Console.Write("Digite seu nome: ");
             string nome = Console.ReadLine();
