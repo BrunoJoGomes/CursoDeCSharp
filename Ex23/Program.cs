@@ -67,7 +67,25 @@ namespace Ex23
             var a = 3;
             var b = 5;
 
-            Console.WriteLine(ativo == true);
+            //Console.WriteLine(ativo == true);
+
+            //Operador e &&
+            Console.WriteLine(a > 2 && b > 4); //a= v b= v retorno = verdadeiro
+            Console.WriteLine(a > 4 && b > 4); //a= f b= v retorno = falso
+            Console.WriteLine(a > 2 && b > 6); //a= v b= f retorno = falso
+            Console.WriteLine(a > 4 && b > 6); //a= f b= f retorno = falso
+
+            //Operador ou ||
+            Console.WriteLine(a > 2 || b > 4); //a= v b= v retorno = verdadeiro
+            Console.WriteLine(a > 4|| b > 4); //a= f b= v retorno = verdadeiro
+            Console.WriteLine(a > 2 || b > 6); //a= v b= f retorno = verdadeiro
+            Console.WriteLine(a > 4 || b > 6); //a= f b= f retorno = falso
+
+            Console.WriteLine(!ativo); //true
+
+            Console.WriteLine(a != b); //true
+            Console.WriteLine(!(a != b)); //false
+
 
 
 
